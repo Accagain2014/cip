@@ -9,16 +9,14 @@ g++ -o cip main.cpp
 2 压缩
 ```
   ./cip sourcefile compressedfile
+  eg ./cip Aesop_Fables.txt Aesop_Fables_compress.txt
 ```
-
-  eg ./main Aesop_Fables.txt Aesop_Fables_compress.txt
 
 3 解压
 ```
   ./cip compressedfile targetfile
-```
-
   eg ./main Aesop_Fables_compress.txt Aesop_Fables_copy.txt
+```
 
 # compression ratio
   For the Aesop_Fables.txt file is 109KB/190KB = 57.37%
