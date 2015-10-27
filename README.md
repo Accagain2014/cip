@@ -2,16 +2,20 @@
   A Compressing File Tool Using Huffman Coding 
 
 # run step
-1 压缩
+1 编译
 ```
-  ./main sourcefile compressedfile
+g++ -o cip main.cpp
+```
+2 压缩
+```
+  ./cip sourcefile compressedfile
 ```
 
   eg ./main Aesop_Fables.txt Aesop_Fables_compress.txt
 
-2 解压
+3 解压
 ```
-  ./main compressedfile targetfile
+  ./cip compressedfile targetfile
 ```
 
   eg ./main Aesop_Fables_compress.txt Aesop_Fables_copy.txt
